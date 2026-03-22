@@ -1,0 +1,13 @@
+# NVIDIA Binaries
+*.tbz2
+Linux_for_Tegra/
+
+# Generated Images
+*.img
+
+# Sensitive Data
+keys/*
+!keys/.gitkeep
+
+# Local modifications
+source_modifications/rootfs/opt/provisioning/keys/*
