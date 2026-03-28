@@ -18,7 +18,6 @@ apt-get remove --purge -y \
     ubuntu-desktop \
     gdm3 \
     gnome-shell \
-    x11-common
 
 # 3. Clean up orphaned dependencies left behind by the desktop environment
 echo "Autoremoving orphaned GUI dependencies..."

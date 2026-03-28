@@ -63,7 +63,7 @@ autoload -U colors && colors
 
 ##### 5) Lightweight Git status function ####################################
 # Uses git porcelain output for fast, reliable status detection.
-
+autoload -Uz add-zsh-hook
 _git_prompt_info() {
   local branch dirty staged untracked colour
   # Ensure we are inside a Git work‑tree
